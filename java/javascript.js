@@ -2,7 +2,7 @@ const containerel = document.getElementById('wrapper')
 
 for(let i =1 ; i < 11 ; i++ ){
     for(let c = 1 ; c < 11 ; c++){
-        let number = c * i ;
+        let number = c + (i - 1) * 10 ;
         let scritta
         let color;
         if( number % 3 === 0 && number % 5 === 0){
