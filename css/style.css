@@ -4,3 +4,18 @@
     --buzz:#FFD166;
     --fizzbuzz:#F0466F;
 }
+.box{
+    width: calc(100% / 11);
+}
+.numbers{
+    background-color: var(--normalcolor);
+}
+.fizzcol{
+    background-color: var(--fizz);
+}
+.buzzcol{
+    background-color: var(--buzz);
+}
+.fizzbuzzcol{
+    background-color: var(--fizzbuzz);
+}
