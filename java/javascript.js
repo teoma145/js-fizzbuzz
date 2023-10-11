@@ -23,7 +23,7 @@ for(let i =1 ; i < 11 ; i++ ){
             scritta = number
         }
         const boxEl = document.createElement('div');
-        boxEl.className = `box ${color} `
+        boxEl.className = `box ${color} text-center `
         boxEl.innerHTML = scritta;
         containerel.append(boxEl);
     }
